@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/background.png');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.container{
+    max-width: 1000px;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+}
+
+.logo{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+.title{
+    text-transform: uppercase;
+    font-size: 45px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 15px;
+}
+
+.subtitle{
+    font-size: 35px;
+    margin-bottom: 50px;
+    font-family: 'Lato', sans-serif;
+}
+
+.inform{
+    margin-bottom: 25px;
+    font-size: 23px;
+}
+
+.textName, .mail, .btn{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 7px;
+    border: 0;
+    outline: 0;
+    
+}
+
+.textName{
+    margin-bottom: 10px;
+}
+
+.mail{
+    margin-bottom: 20px;
+}
+
+.textName::placeholder{
+    font-size: 20px;
+}
+
+.mail{
+
+    font-size: 20px;
+    
+}
+.check{
+    font-size: 14px;
+    cursor: pointer;
+}
+span{
+    display: block;
+    margin-bottom: 25px;
+    font-size: 14px;
+}
+
+.btn{
+    background-color: #0059BE;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    
+}
+
+.btn:hover{
+   background-color: #0052B4;
+}
+
